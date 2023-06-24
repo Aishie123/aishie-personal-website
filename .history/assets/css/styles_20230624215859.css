@@ -520,23 +520,11 @@ img {
 
 
 .skills__illustrator, .skills__photoshop{
-  width: 70%
-}
-
-.skills__canva{
   width: 80%
 }
 
-.skills__fcp{
+.skills__canva{
   width: 70%
-}
-
-.skills__pr{
-  width: 50%
-}
-
-.skills__ae{
-  width: 20%
 }
 
 .skills__close .skills__list{
