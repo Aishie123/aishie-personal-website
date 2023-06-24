@@ -1,4 +1,4 @@
-/*==================== MENU SHOW Y HIDDEN ====================*/
+/*==================== MENU SHOW AND HIDDEN ====================*/
 const navMenu = document.getElementById('nav-menu'),
       navToggle = document.getElementById('nav-toggle'),
       navClose = document.getElementById('nav-close')
@@ -11,7 +11,6 @@ if(navToggle){
         navMenu.classList.add('show-menu')
     })
 }
-
 
 /*===== MENU HIDDEN =====*/
 /* Validate if constant exists */
@@ -73,6 +72,21 @@ tabs.forEach(tab => {
     })
 })
 
+/*==================== PORTFOLIO SWIPER ====================*/
+
+let swiper = new Swiper(".portfolio__container", {
+    cssMode: true,
+    loop: true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
+
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
 const sections = document.querySelectorAll('section[id]')
 
@@ -92,38 +106,6 @@ function scrollActive(){
     })
 }
 window.addEventListener('scroll', scrollActive)
-
-/*==================== CONTACT FORM ====================*/
-
-/*
-const sendMessageBtn = document.getElementById('send-msg');
-
-sendMessageBtn.addEventListener('click', function (event) {
-  event.preventDefault(); // Prevent form submission
-
-  var params = {
-    name: document.getElementById('name').value,
-    email: document.getElementById('email').value,
-    subject: document.getElementById('subject').value,
-    message: document.getElementById('message').value,
-  };
-  
-  const serviceID = 'service_aishie-gmail';
-  const templateID = 'template_aishie-email';
-
-  // Send the email using EmailJS
-  emailjs.send(serviceID, templateID, params)
-    .then(function (response) {
-      // Email sent successfully, do something (e.g., show a success message)
-      alert('Email sent successfully!');
-      document.getElementById('contact-form').reset(); // Clear the form
-    })
-    .catch(function (error) {
-      // An error occurred while sending the email, show an error message
-      alert('Failed to send email.');
-    });
-});
-*/
 
 
 /*==================== CHANGE BACKGROUND HEADER ====================*/ 

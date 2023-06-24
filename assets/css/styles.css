@@ -614,6 +614,151 @@ img {
   color: var(--first-color);
 }
 
+/*==================== EXPERIENCE ====================*/
+.experience__tabs{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: var(--mb-2);
+}
+
+.experience__button{
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-medium);
+  cursor: pointer;
+}
+
+.experience__button:hover{
+  color: var(--first-color);
+}
+
+.experience__icon{
+  font-size: 1.8rem;
+  margin-right:var(--mb-0-25);
+  column-gap: 1.5rem;
+}
+
+.experience__data{
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  column-gap: 1.5rem;
+}
+
+.experience__title{
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+}
+
+.experience__subtitle{
+  display: inline-block;
+  font-size: var(--small-font-size);
+  margin-bottom: var(--mb-1);
+}
+
+.experience__calendar{
+  font-size: var(--smaller-font-size);
+  color: var(--text-color-light);
+}
+
+.experience__rounder{
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background-color: var(--first-color);
+  border-radius: 50%;
+}
+
+.experience__line{
+  display: block;
+  width: 1px;
+  height: 100%;
+  background-color: var(--first-color);
+  transform: translate(6px, -7px);
+}
+
+.experience [data-content]{
+  display: none;
+}
+
+.experience__active[data-content]{
+  display: block;
+}
+
+.experience__button.experience__active{
+  color: var(--first-color);
+}
+
+/*==================== PORTFOLIO ====================*/
+.portfolio__container{
+  overflow: initial;
+}
+
+/*
+.portfolio__content{
+  padding: 0 1.5rem;
+} */
+
+.portfolio__title{
+  font-size: var(--h3-font-size);
+  /*
+  margin-bottom: var(--mb-0-5);
+  */
+
+  /* temporary */
+  font-weight: var(--font-medium);
+  color: var(--text-color-light);
+}
+
+/* temporary */
+.portfolio__temp{
+  text-align: center;
+}
+
+.portfolio__icon{
+  font-size: 2rem;
+  color: var(--text-color-light);
+}
+
+/*
+.portfolio__img{
+  width: 265px;
+  border-radius: .5rem;
+  justify-self: center;
+}
+
+.portfolio__description{
+  margin-bottom: var(--mb-0-75);
+}
+
+.portfolio__button:hover .button__icon{
+  transform: translateX(.25rem);
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after{
+  content: '';
+}
+
+.swiper-portfolio-icon{
+  font-size: 2rem;
+  color: var(--first-color);
+}
+
+.swiper-button-prev{
+  left: -.5rem;
+}
+
+.swiper-button-next{
+  right: -.5rem;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets{
+  bottom: -2.5rem;
+}
+
+.swiper-pagination-bullet-active{
+  background-color: var(--first-color);
+}
+*/
 
 /*==================== CONTACT ME ====================*/
 .contact__container{
