@@ -712,13 +712,13 @@ img {
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-0-5);
   
-  /* temporary 
+  /* temporary */
   font-weight: var(--font-medium);
   color: var(--text-color-light);
-  */
+  
 }
 
-/* temporary 
+/* temporary */
 .portfolio__temp{
   text-align: center;
 }
@@ -727,7 +727,7 @@ img {
   font-size: 2rem;
   color: var(--text-color-light);
 }
-*/
+
 
 .portfolio__img{
   width: 265px;
@@ -768,6 +768,7 @@ img {
 .swiper-pagination-bullet-active{
   background-color: var(--first-color);
 }
+*/
 
 /*==================== CONTACT ME ====================*/
 .contact__container{
