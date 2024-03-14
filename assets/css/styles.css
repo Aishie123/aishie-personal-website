@@ -722,6 +722,10 @@ img {
   color: var(--first-color);
 }
 
+.portfolio__link:hover{
+  color: var(--first-color-lighter);
+}
+
 .portfolio__data {
   align-self: center;
   align-items: center;
