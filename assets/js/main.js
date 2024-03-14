@@ -43,7 +43,7 @@ function toggleSkills(){
     }
 
     if(itemClass === 'skills__content skills__close'){
-        this.parentNode.className = 'skills_content skills__open'
+        this.parentNode.className = 'skills__content skills__open'
     }
 }
 

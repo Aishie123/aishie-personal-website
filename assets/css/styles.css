@@ -718,19 +718,18 @@ img {
   */
 }
 
-/* temporary 
-.portfolio__temp{
-  text-align: center;
+.portfolio__link {
+  color: var(--first-color);
 }
 
-.portfolio__icon{
-  font-size: 2rem;
-  color: var(--text-color-light);
+.portfolio__data {
+  align-self: center;
+  align-items: center;
 }
-*/
 
 .portfolio__img{
   width: 265px;
+  align-self: center;
   border-radius: .5rem;
   justify-self: center;
 }
